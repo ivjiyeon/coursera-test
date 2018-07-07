@@ -1,90 +1,60 @@
-div.container {
-	margin: 10px;
-	padding: 10px;
-	border: 1px solid black;
-	background-color: #747998;
-	float: left;
-}
-
-/******Large Devices******/
-@media (min-width: 992px){
-	.col-lg-4 {
-		float: left;
-		width: 30%;
-	}
-}
-
-/******Medium Devices******/
-@media (min-width: 768px) and (max-width: 991px){
-	.col-md-6a {
-		float: left;
-		width: 45%;
-	}
-	.col-md-6b{
-		float: left;
-		width: 92.5%
-	}
-}
-
-/******Small Devices******/
-@media (max-width: 767px){
-	.col-sm-12{
-		float: left;
-		width: 100%;
-	}
-}
-
+/********** Base styles **********/
 * {
-	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
-}
-
-body{
-	font-family: "Comic Sans MS", cursive, sans-serif;
-	margin-left: auto;
-	margin-right: auto;
+  box-sizing: border-box;
 }
 h1 {
-	margin-top: 30px;
-	margin-bottom: 60px;
-	text-align: center;
+  margin-bottom: 15px;
+  text-align: center;
+}
+p {
+  border: 1px solid black;
+  background-color: #A52A2A;
+  /*width: 90%;
+  height: 150px;*/
+  padding: 40px 10px 10px 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+  font-family: Helvetica;
+  color: white;
+  position: relative;
+}
+#HTML, #CSS, #JS {
+  border: 1px solid black;
+  text-align: center;
+  padding: 5px 20px;
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 
-.row{
-	margin: 10px autos;
-	width: 90%;
+/* Simple Responsive Framework. */
+div.row {
+  width: 100%;
+  margin-right: 15px;
+  margin-right: 15px;
 }
-
-
-
-section{
-	clear: both;
+/********** Large devices only **********/
+@media (min-width: 992px){
+  .col-lg-4{
+    float: left;
+    width: 33.33%;
+  }
 }
-
-div #chicken, #beef, #sushi{
-	width: 100px;
-	height: 30px;
-	margin-top: 0px;
-	border: 1px solid black;
-	padding-top: 2px;
-	float: right;	
-	position: relative;
-	top: -10px;
-	right: -10px;
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px){
+  .col-md-6{
+    float: left;
+    width: 50%;
+  }
+  .col-md-12{
+    float: left;
+    width: 100%;
+  }
 }
-
-div #chicken{
-	background-color: #EB6DFE;
-	padding-left: 20px;
-}
-
-div #beef{
-	background-color: #F40152;
-	padding-left: 30px;
-}
-
-div #sushi{
-	background-color: #F9F69B;
-	padding-left: 28px;
+/********** Small devices only **********/
+@media (max-width: 767px){
+  .col-sm-12 {
+    float: left;
+    width: 100%
+  }
 }
