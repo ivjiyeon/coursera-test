@@ -1,19 +1,17 @@
 body {
-	font-size: 16px;
-	font-family: "Comic Sans MS", cursive, sans-serif;
-	margin-left: auto;
-	margin-right: auto;
-	background-color: lightpink;
+  font-size: 16px;
+  color: #fff;
+  background-color: green;
+  /*font-family: 'Oxygen', sans-serif;*/
 }
 
 /** HEADER **/
 #header-nav {
-	background-color: #f6b319;
-	border-radius: 0;
-	border: 0;
-	float: left;
+  background-color: #f6b319;
+  border-radius: 0;
+  border: 0;
 }
-
+/**
 div.containers {
 	margin: 10px;
 	padding: 10px;
@@ -23,15 +21,15 @@ div.containers {
 }
 
 /******Large Devices******/
-@media (min-width: 992px){
+/*@media (min-width: 992px){
 	.col-lg-4 {
 		float: left;
 		width: 30%;
 	}
-}
+}*/
 
 /******Medium Devices******/
-@media (min-width: 768px) and (max-width: 991px){
+/*@media (min-width: 768px) and (max-width: 991px){
 	.col-md-6a {
 		float: left;
 		width: 45%;
@@ -40,10 +38,10 @@ div.containers {
 		float: left;
 		width: 92.5%
 	}
-}
+}*/
 
 /******Small Devices******/
-@media (max-width: 767px){
+/*@media (max-width: 767px){
 	.col-sm-12{
 		float: left;
 		width: 100%;
@@ -98,4 +96,4 @@ div #beef{
 div #sushi{
 	background-color: #F9F69B;
 	padding-left: 28px;
-}
+}*/
