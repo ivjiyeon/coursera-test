@@ -10,6 +10,11 @@ body {
   background-color: white;
   border-radius: 0;
   border: 0;
+  text-align: center;
+}
+
+.navbar-brand {
+	float: left;
 }
 
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar{
@@ -22,7 +27,6 @@ body {
 }
 h1 {
   margin-bottom: 15px;
-  text-align: center;
 }
 p {
   border: 1px solid black;
@@ -38,7 +42,7 @@ p {
       height: 1000px;
 
 }
-#HTML, #CSS, #JS {
+#Chicken, #Beef, #Sushi {
   border: 1px solid black;
   text-align: center;
   padding: 5px 20px;
@@ -55,26 +59,22 @@ div.row {
 }
 /********** Large devices only **********/
 @media (min-width: 992px){
-  .col-lg-4{
+  .col-xs-12{
     float: left;
     width: 100%;
   }
 }
 /********** Medium devices only **********/
 @media (min-width: 768px) and (max-width: 991px){
-  .col-md-6{
-    float: left;
-    width: 100%;
-  }
-  .col-md-12{
+  .col-xs-12{
     float: left;
     width: 100%;
   }
 }
 /********** Small devices only **********/
 @media (max-width: 767px){
-  .col-sm-12 {
+  .col-xs-12{
     float: left;
-    width: 100%
+    width: 100%;
   }
 }
