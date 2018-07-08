@@ -19,6 +19,7 @@ body {
 
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar{
 	border: 1px solid blue;
+
 }
 
 /********** Base styles **********/
@@ -53,6 +54,7 @@ p {
 
 div.container {
 	float: left;
+	width: 100%
 }
 /* Simple Responsive Framework. */
 div.row {
